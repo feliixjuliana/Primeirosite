@@ -1,0 +1,310 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+}
+
+/* -------------------- FORMATAÇÃO DO TOPO -------------------*/
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(232, 224, 240);
+    
+}
+
+#logo {
+    display: flex;
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+button {
+    font-family: Courier New, monospace; color: blueviolet; letter-spacing: 2px;
+    cursor: pointer;
+    border: 0px;
+    background-color: rgb(232, 224, 240);
+    transition: color 0.35s ease-in-out, background-color 0.70s ease-in-out, border-color 0.35s ease-in-out;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.inicio:hover {background-color: rgb(139, 21, 250); color: rgb(241, 234, 248);}
+
+.informa:hover {background-color: rgb(139, 21, 250); color: rgb(241, 234, 248);}
+
+.interg:hover {background-color: rgb(139, 21, 250); color: rgb(241, 234, 248);}
+
+#informa, #inicio{
+    margin-right: 20px;
+}
+
+lu {
+    display: flex;
+}
+
+#procura {
+    width: 150px;
+    background: transparent url('/images/bgtranspfield.gif');
+    cursor: pointer;
+    letter-spacing: 3px;
+    font-family: Courier New, monospace;
+    border-width: 1px;
+    border: style 2px;
+    border-color: rgb(194, 153, 233);
+    border-radius: 10px;
+}
+
+/* -------------------- TEXTO INICIAL -------------------*/
+
+.textoinicial {
+    display: flex;
+    background-color: rgb(230, 213, 247);
+    width: auto;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.localdostextosprincipais {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px; height: auto;
+    margin:0px 0px 30px 0px;
+}
+
+.botoesprincipais {
+    display: flex;
+}
+
+
+.infor1, .insta1 {
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    letter-spacing: 3px;
+    font-family: Courier New, monospace; color: blueviolet;
+    border-width: 1px;
+    border: style 2px;
+    border-color: rgb(194, 153, 233);
+    border-radius: 10px;
+    transition: color 0.35s ease-in-out, background-color 0.70s ease-in-out, border-color 0.35s ease-in-out;
+}
+
+.infor1{background-color: rgba(198, 142, 250, 0.712);}
+.infor1:hover {background-color: rgb(139, 21, 250); color: rgb(241, 234, 248);}
+.insta1{background-color: rgba(198, 142, 250, 0.712);}
+.insta1:hover {background-color: rgb(139, 21, 250); color: rgb(241, 234, 248);}
+
+#infor {
+    margin-right: 10px;
+}
+
+#colorbangtan{
+    font-family:Palatino, URW Palladio L, serif; letter-spacing: 2px;
+    color: blueviolet;
+}
+
+#textosobre {
+    font-family: monospace;
+    color: rgb(64, 18, 107);
+    margin-bottom: 30px;  margin-top: 30px;
+}
+
+#sevenfotinha {
+    border-radius: 20px;
+}/* -------------------- INFORMAÇÕES GERAIS -------------------*/
+
+.informacoesgerais {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: auto;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(212, 176, 247, 0.705);
+}
+.cards {
+    display: flex;
+}
+div {
+    background-color: rgba(166, 131, 199, 0.356);
+    display: flex; flex-flow: column wrap;
+	justify-content: center; align-items: center; flex: wrap; flex-direction: column;
+	width: 10em; padding: 1em; border: 1px solid var();
+	border-radius: 30px; 
+
+}
+
+#infor1, h5 {
+    color: blueviolet;
+    font-family:Palatino, URW Palladio L, serif; letter-spacing: 2px;
+}
+#card1, #card2 {
+    margin-right: 60px;
+}
+#text1, #text2, #text3, #text4 {
+    font-family: monospace;
+    color: rgb(64, 18, 107);
+}
+
+
+
+
+/* -------------------- INTEGRANTES -------------------*/
+.integrantes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(216, 183, 247);
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: 700px;
+}
+
+.sobreos7, .doisinter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 200px; margin-right: 200px;
+}
+
+#sobreos7, #nomes {
+    font-family: monospace;
+    color: rgb(64, 18, 107);
+
+}
+
+#h2integrantes{
+    color: blueviolet; font-family:Palatino, URW Palladio L, serif; letter-spacing: 2px;
+}
+
+#jungkook, #yoongi, #jimin, #taehyung, #namjoon, #seokjin, #jhope {
+    border-radius: 15px;
+}
+
+.cincointegrantes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.doisintegrantes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#jungkook, #taehyung, #yoongi, #namjoon {
+    margin-right: 30px;
+}
+
+/* -------------------- QUESTIONÁRIO -------------------*/
+.questionario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(212, 176, 247, 0.705);
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+    height: 400px; }
+
+    .paraalinhar1, .paraalinhar2 {
+        display:flex; 
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+
+    .paraalinhar1 {
+        margin-right: 30px;
+    }
+
+    .usu, .e, .o{
+        font-family: monospace;
+        color: rgb(64, 18, 107);
+    }
+
+    .nomeandemail {
+        display: flex;
+        margin: 0px 0px 0px 0px;
+    }
+
+    #ajuda{
+        color: rgba(89, 18, 155, 0.63); 
+    }
+
+    #usuario, #email {
+        background-color: transparent;
+        border-radius: 15px; border-color: rgba(191, 154, 226, 0.699);
+        font-family: monospace;
+        color: rgba(64, 18, 107, 0.562);
+        width: 200px;
+    }
+
+    #opiniao {
+        background-color: transparent;
+        width: 450px; height: 100px;
+        border-radius: 20px; border-color:  rgba(191, 154, 226, 0.699);
+        font-family: monospace;
+        color: rgba(64, 18, 107, 0.596); 
+    }
+
+    .descricao {
+        margin-bottom: 20px;
+    }
+
+    
+.enviar {
+    width: 150px;
+    height: 30px;
+    letter-spacing: 3px;
+    font-family: Courier New, monospace; color: rgb(245, 245, 245);
+    border-color: rgba(132, 4, 252, 0.151);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: color 0.35s ease-in-out, background-color 0.70s ease-in-out, border-color 0.35s ease-in-out;
+}
+
+.enviar{background-color: rgba(198, 142, 250, 0.712); color: blueviolet;}
+.enviar:hover {background-color: rgb(139, 21, 250); color: rgb(241, 234, 248);}
+/* -------------------- RODAPÉ -------------------*/
+.rodape {
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: rgb(214, 177, 248);
+    margin: 0px 0px 0px 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+.redessociais{
+    display: flex;
+    margin-left: 0px;
+    margin-right: 300px;
+}
+
+#facebook, #instagram, #youtube {
+    margin-right: 5px;
+}
+
+address {
+    font-family: monospace;
+    color: rgb(64, 18, 107);
+}
